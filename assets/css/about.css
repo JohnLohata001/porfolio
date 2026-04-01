@@ -1,0 +1,324 @@
+@font-face {
+    font-family: futura;
+    src: url(../futura/futur.ttf);
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: 'EB Garamond', serif; */
+    /* font-family: futura; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 18px; */
+}
+header{
+    width: 100%;
+    min-height: 70px;
+    background: rgb(5, 121, 199);    
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+   
+}
+header h3{
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding-left: 1rem;
+}
+main{
+    padding: 1rem 4rem;
+}
+main h2{
+    padding:0;
+    margin: 0;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+
+}
+main ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container-pres{
+    display: flex;
+}
+.pict-indentity, .name-pres{
+    padding: 1rem;
+}
+.pict-indentity img{
+    border-left: solid 1px #837f7f;
+    border-right: solid 1px #7d7b7b;
+    border-top: solid 1px #047ec9;
+    border-bottom: solid 1px #054196;
+    border-radius: 5px;
+    max-width: 380px;
+    /* border-bottom-left-radius: 10%; */
+}
+.available-hire{
+    display: flex;
+    justify-content: space-between;
+}
+.available-hire p a{
+    background-color: #047ec9;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: .5rem 1.5rem;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+    border: solid 1px #047ec9;
+
+
+}
+.available-hire p a:hover{
+    background-color: white;
+    color: #047ec9;
+    border: solid 1px #047ec9;
+}
+.available-hire p span{
+    color: #047ec9;
+    font-weight: 700;
+}
+.available-hire .p-text{
+    border:solid 5px #047ec9;
+    padding:10px 1rem;
+    min-height:25px ;
+    margin-top: 5px;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-radius: 5px;
+}
+.box-title{
+    padding:  1rem 0;
+}
+.box-title h2{
+    padding-bottom: 1rem ;
+}
+.box-location{
+    display: flex;
+    flex-grow: 1;
+    min-width: 100%;
+    border: solid 1px #dcdada;
+    border-left: transparent;
+    border-right: transparent;
+    padding: .5rem 0;
+}
+.box-location .info-box-loc{
+    font-size: 14px;
+}
+.box-location .info-box-loc div{
+    font-size: 13px;
+    margin-bottom: .5rem;
+    color: #6a6969;
+}
+.info-box-loc{
+    padding: .5rem;
+    width: 100%;
+
+}
+.box-loc-1{
+    border-right: solid 1px #dcdada;
+}
+.box-porto ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-porto ul li{
+    padding: .3rem .2rem; 
+}
+.box-porto ul li a{
+    text-decoration: none;
+    border: solid 1px #dcdada;
+    color: rgb(90, 90, 90);
+    font-size: 12px;
+    padding: .2rem 1rem;
+    border-radius: 20px;
+}
+.info-box-ul ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.info-box-ul ul li{
+    padding: .3rem .2rem;
+}
+.info-box-ul ul a{
+   text-decoration: none;
+   border: solid 1px #dcdada;
+   color: rgb(90, 90, 90);
+   font-size: 12px;
+   padding: .2rem 1rem;
+   border-radius: 20px;
+}
+.info-box-ul ul a:hover{
+    background: rgb(5, 121, 199);
+    color: white;
+    border: solid 1px rgb(5, 121, 199);
+    /* padding:.2rem 2rem; */
+
+}
+
+.info-box p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+/* ========================= portofolio ================================= */
+.presentations-portofolio{
+    padding-bottom: 4rem;
+}
+
+.presentations-portofolio .container-pres-porto{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.presentations-portofolio .container-pres-porto .box-porto{
+    
+    flex-grow: 1;
+    max-width: 31%;
+    overflow: hidden;
+}
+.container-environement{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #eee;
+    padding-top: 4rem;
+}
+.container-environement .box-enviro{
+    width: 300%;
+    padding-right: 1rem;
+}
+.common-container{
+    display: flex;
+    gap: 2rem;
+    flex-basis: 1;
+    width: 100%;
+    border-top: solid 1px #eee;
+    padding: 2rem 0;
+}
+.exp-title{
+    display: flex;
+    justify-content: space-between;
+}
+.skills-title,
+.education-title,
+.ceritfications-title{
+    flex-basis: 30% !important;
+}
+.box-expert1{
+    width: 30% !important;
+}
+.box-expert2,
+.skills-content{
+    width: 60%;
+}
+.container-social-media{
+    width: 100%;
+    height: 100px; 
+    padding-top: 5rem;
+    /* margin: auto; */
+    
+}
+.content-icons{
+    margin: auto;
+    /* border: solid 1px; */
+    max-width: 100%;
+    text-align: center;
+    font-size: 20px;
+   
+}
+.content-icons div{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+}
+.icons-media{
+    border: solid 1px #a6a5a5;
+    padding: .5rem 1rem;
+    color: #a6a5a5;
+    border-left: none;
+}
+.content-icons:nth-child(2){
+    border-left: solid 1px #a6a5a5;
+}
+.facebook:hover{
+    background-color: #054196;
+    color: white;
+}
+.linkedin:hover{
+    background-color:#047ec9;
+    color: white;
+}
+.youtube:hover{
+    background-color:white;
+    color: #c93204;
+}
+.share{
+    border: solid 1px #a6a5a5;
+    padding: .7rem ;
+    background-color: #eee;
+    font-size: 14px;
+    text-align: center; 
+}
+footer{
+    min-height: 100px;
+    width: 100%;
+    background-color: #000;
+}
+@media only screen and (max-width:768px){
+    main{
+        padding: 1rem;
+    }
+    .container-pres{
+        display: flex;
+        flex-direction: column;
+    }
+    .pict-indentity{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .pict-indentity, .name-pres{
+        width: 100%;
+    }
+    .pict-indentity img{
+        width: 100% !important;
+        margin: auto;
+    }
+    .available-hire{
+        display: flex;
+        justify-content: center;
+    }
+    .available-hire .p-text{
+        border: transparent;
+    }
+    .pict-indentity, .name-pres{
+        padding-top: 0;
+    }
+    .presentations-portofolio .container-pres-porto{
+        flex-direction: column;
+    }
+    .presentations-portofolio .container-pres-porto .box-porto{
+
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .common-container{
+        flex-direction: column;
+    }
+    .container-environement{
+        flex-direction: column;
+    }
+}
